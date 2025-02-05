@@ -14,6 +14,7 @@ public class baseclass {
         driver.get("https://launchhybridworkspace.galaxkeydemo.com:501/");
         driver.manage().window().maximize();
         driver.quit();
+        driver.close();
     }
     
 }
